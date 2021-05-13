@@ -1,12 +1,13 @@
+//Example: Rename to config.json and insert correct Wifi/MQTT configuration
 {
-        "name": "LAB FLNDK",
-        "device_id": "LAB_FLNDK",
+        "name": "Dunkelkammersteuerung",
+        "device_id": "dkesp",
         "wifi": {
-                "ssid": "IA216oT",
-                "password": "SwieSecurity"
+                "ssid": "FLN",
+                "password": "tops3cret"
         },
         "mqtt": {
-                "host": "ia216",
+                "host": "mqtthost",
                 "port": 1883,
                 "base_topic": "homie/",
                 "auth": false
