@@ -1,0 +1,20 @@
+{
+        "name": "LAB FLNDK",
+        "device_id": "LAB_FLNDK",
+        "wifi": {
+                "ssid": "IA216oT",
+                "password": "SwieSecurity"
+        },
+        "mqtt": {
+                "host": "ia216",
+                "port": 1883,
+                "base_topic": "homie/",
+                "auth": false
+        },
+        "ota": {
+                "enabled": true
+        },
+        "settings": {
+                "RGBfadeDelay": 20
+        }
+}
